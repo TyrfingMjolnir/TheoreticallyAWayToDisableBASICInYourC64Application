@@ -1,4 +1,4 @@
-# C64 Disable BASIC ROM to make space for RAM
+# C64 Disable BASIC ROM to make the space available as RAM
 
 Discussion
 
