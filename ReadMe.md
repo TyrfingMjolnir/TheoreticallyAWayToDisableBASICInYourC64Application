@@ -4,9 +4,11 @@ Discussion
 
 According to this: https://sta.c64.org/cbm64mem.html as mentioned in the comments here: https://youtu.be/NKOucB0o4YQ
 
-And will you still be able to use system SEQ files for reading and writing? Such as https://codebase64.org/doku.php?id=base:reading_a_file_byte-by-byte
+And will you still be able to use system SEQ files for reading and writing? As all calls are in kernal space, i e
+Such as https://codebase64.org/doku.php?id=base:reading_a_file_byte-by-byte
 
 Assembler code:
+
 ====== Reading from a file byte-by-byte ======
 ```
 load_address = $2000  ; just an example
